@@ -1,0 +1,111 @@
+html{
+    background-color:#FFF5B7;
+    
+    
+}
+
+.logo>.logo-image,.logo>.logo-title{
+    display: inline-block;
+}
+.main-header>.logo,.main-header>.main-search{
+    display: inline-block;
+}
+.main-search>.search>.main-search>.fa-bell{
+    display: inline-block;
+} 
+.main-header{
+    box-sizing: border-box;
+   border: none;
+    background-color:teal;
+   margin-top: 0;
+    color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   	
+	height: 100px;
+    margin-left: 9.5rem;
+
+}
+.btn{
+ border-radius: 5px;
+ border: none;
+ background-color: teal;
+ padding: 1rem;
+ margin-left: 30rem;
+ margin-top: 2rem;
+ 
+}
+.main-search{
+    margin-left: 50%;
+}
+
+.search{
+    border: 1px solid;
+    border-radius: 5px;
+    
+   
+    
+}
+.dashboard>.main-dashboard, .dashboard>.dashboard-menu{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.dashboard-menu-btn1{
+    color:tomato;
+   
+}
+.dashboard-menu{
+    height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: teal;
+  
+  padding-top: 6rem;
+  margin-top: 0.5rem;
+    
+}
+.dashboard-menu-btn{
+    border: none;
+    margin-top: 15%;
+    
+    text-align: center;
+    border-radius: 5px;
+    background-color:#FFF5B7;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+
+.dashboard-menu-btn:hover{
+    transform: translateY(0) scale(1.5);
+    transition: width 0.5s;
+   
+}
+
+.add-item{
+    border: 1px solid;
+    padding-left:6rem;
+    padding-right: 6rem;
+    padding-bottom:0.5rem;
+    margin-left: 20rem;
+    border-radius: 5px;
+    
+}
+.add-input>.label,.add-input>.add-item{
+    display:list-item
+}
+.main-dashboard{
+    margin-top: 2rem;
+}
+.label{
+    list-style:none;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: tomato;
+}
